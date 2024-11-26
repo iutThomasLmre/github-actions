@@ -2,6 +2,7 @@ name: Simple Workflow
 
 on:
   # Déclencheur programmé toutes les heures
+  # schedule:
   #   - cron: '0 * * * *'
 
   workflow_dispatch:
