@@ -1,11 +1,9 @@
 name: Simple Workflow
 
 on:
-  # Déclencheur programmé toutes les heures (commenté à la fin du TP)
-  # schedule:
+  # Déclencheur programmé toutes les heures
   #   - cron: '0 * * * *'
 
-  # Déclencheur manuel pour les tests ponctuels
   workflow_dispatch:
 
 jobs:
