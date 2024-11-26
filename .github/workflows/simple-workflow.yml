@@ -1,0 +1,20 @@
+name: Simple Workflow
+
+on:
+  # Déclencheur programmé toutes les heures (commenté à la fin du TP)
+  # schedule:
+  #   - cron: '0 * * * *'
+
+  # Déclencheur manuel pour les tests ponctuels
+  workflow_dispatch:
+
+jobs:
+  main_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupération du code source
+        run: echo "Récupération du code source"
+
+      - name: Vérification terminée
+        run: echo "Vérification terminée"
